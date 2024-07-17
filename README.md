@@ -34,9 +34,8 @@ This is the frontend part of the Z-bank web application.
 
 ## Application Design
 
-The project design in Dribbble:
-![Design from Dribbble.com](https://github.com/user-attachments/assets/9bea5f53-93ec-4140-9fd2-4394f0d75f72)
-https://dribbble.com/shots/24101261-Corporate-banking-for-startups-and-SMEs
 
-The project in Figma:
-https://www.figma.com/design/DgLmKyCoXE31oKEGhjj0rT/z-bank-design?node-id=0-1&t=QjRLjIEQZKliTpSe-0
+The project design in Dribbble: https://dribbble.com/shots/24101261-Corporate-banking-for-startups-and-SMEs
+![Design from Dribbble.com](https://github.com/user-attachments/assets/9bea5f53-93ec-4140-9fd2-4394f0d75f72)
+
+The project in Figma: https://www.figma.com/design/DgLmKyCoXE31oKEGhjj0rT/z-bank-design?node-id=0-1&t=QjRLjIEQZKliTpSe-0
