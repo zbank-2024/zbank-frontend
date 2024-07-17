@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Z-bank - Frontend
 
-## Getting Started
+This is the frontend part of the Z-bank web application.
 
-First, run the development server:
+## Technology Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- React + Typescript + Next.js
+- SCSS + Tailwind
+- Redux Toolkit
+- React Hook Form + Zod
+- Jest + React Testing Library + WebdriverIO
+- Wishlist: Save products to a wishlist for future reference or for purchasing later.
+- Responsive Design: Enjoy a seamless experience across different devices and screen sizes.
+
+## Project Structure
+
+```
+├── public/             # Static files
+├── src/                # Source code
+│   ├── app/            # The application entrypoint
+│   ├── components/     # Reusable components
+│   ├── hooks/          # Custom hooks
+│   ├── pages/          # Component-based pages
+│   ├── services/       # Application services
+│   ├── store/          # Redux client state store
+├── .gitignore          # Git ignore configuration
+├── .eslintrc.json      # ESLint configuration
+├── tsconfig.json       # Typescript configuration
+├── next.config.mjs     # Next.js configuration
+├── package.json        # NPM package dependencies
+├── tailwind.config.ts  # Tailwind configuration
+└── README.md           # Project readme file
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Application Design
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The design project was developed in Figma:
+https://www.figma.com/design/DgLmKyCoXE31oKEGhjj0rT/z-bank-design?node-id=0-1&t=QjRLjIEQZKliTpSe-0
