@@ -1,8 +1,8 @@
 import ZoonkNav from '@/components/nav/zoonk-nav/ZoonkNav'
 
-export default function Home() {
+export default function Signin() {
   return (
-    <main className='w-full bg-black text-white'>
+    <main className='flex justify-center align-middle'>
       <ZoonkNav />
     </main>
   )

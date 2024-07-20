@@ -1,11 +1,12 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import './globals.scss'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Z-bank web-application',
-  description: '',
+  title: 'Zoonk',
+  description: 'The bank for your crystal future',
 }
 
 export default function RootLayout({
@@ -15,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className='mx-auto w-full max-w-8xl'>{children}</div>
+      </body>
     </html>
   )
 }
