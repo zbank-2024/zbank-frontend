@@ -5,7 +5,7 @@ import css from './auth.module.scss'
 function AuthLayout({ children }: PropsWithChildren) {
   return (
     <main className={`${css.auth_container} w-full h-full bg-white`}>
-      <div className='pt-[5%] px-[18%]'>
+      <div className='flex flex-col pt-[5%] px-[18%]'>
         <ZoonkNav />
         <h1 className='mt-[5%] text-[5vw] min-[1920px]:text-[96px] font-bold leading-[120%]'>
           Invest in Crystal Future

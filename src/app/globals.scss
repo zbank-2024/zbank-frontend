@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 :root {
-  --main-background-color: white;
+  --main-bg-color-primary: white;
+  --button-bg-color-primary: #5269f8;
+  --text-color-primary: #000;
+  --text-color-primary-inversed: #fff;
+  --text-color-secondary: #9594a6;
+  --border-color: #dcdcf0;
 }
 
 * {
