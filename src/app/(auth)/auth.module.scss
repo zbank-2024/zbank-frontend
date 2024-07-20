@@ -1,0 +1,35 @@
+.auth_container {
+  display: grid;
+  grid-template-columns: 9fr 11fr;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  span,
+  svg {
+    filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.7));
+  }
+
+  svg {
+    width: 5.2vw;
+    max-width: 100px;
+    height: auto;
+  }
+
+  span {
+    font-size: 3.75vw;
+  }
+}
+
+@media (min-width: 1920px) {
+  .image {
+    span {
+      font-size: 4.5rem;
+    }
+  }
+}

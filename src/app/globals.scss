@@ -45,7 +45,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: var(--main-background-color);
+  background: radial-gradient(circle at center, #f2eff3, #eeecf7);
   font-family: 'SF Sans', 'Roboto', 'Open Sans', sans-serif;
   &::-webkit-scrollbar {
     display: none;

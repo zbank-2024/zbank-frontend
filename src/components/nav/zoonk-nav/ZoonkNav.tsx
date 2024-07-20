@@ -4,12 +4,12 @@ import { Logo } from '../../ui/icon/Logo'
 
 const ZoonkNav = () => {
   return (
-    <nav className='flex items-center gap-4'>
+    <nav className='flex w-min items-center gap-[8%]'>
       <Link href={Routs.HOME}>
-        <Logo />
+        <Logo className='w-[2.5vw] min-[1920px]:w-[48px] h-auto' />
       </Link>
-      <Link href={Routs.HOME}>
-        <span className='text-3xl font-bold'>Zoonk</span>
+      <Link className='text-[1.565vw] min-[1920px]:text-3xl font-bold' href={Routs.HOME}>
+        <span className='leading-none'>Zoonk</span>
       </Link>
     </nav>
   )
